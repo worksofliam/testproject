@@ -1,0 +1,12 @@
+                R HEADER                    SKIPB(01) SPACEA(1)
+                                           7'Product Code'
+                                          33'Description'
+                                          60'Unit Price'
+                                          80'Stock'
+                                          95'Value'
+                R DETAIL                    SPACEB(1)
+                  PRODCD         7         9
+                  PRODDS        30        23
+                  SELLPR         9  2     60EDTCDE(L)
+                  STOH           7  0     78EDTCDE(L)
+                  VALUE         11  2     90EDTCDE(L)
